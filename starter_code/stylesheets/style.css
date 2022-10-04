@@ -8,3 +8,220 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: #540B51;	
+	
+}
+.container{
+	display: flex;
+}
+.containerImage img {
+	display: flex; 
+    width: 5em;
+}
+
+.iconContainer button {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	height: 2,5em;
+	width: 2,5em;
+	
+}
+
+body a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+header h1{
+	display: flex;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 10em;
+}
+
+.headerContainer p{
+	color: #ECB12F;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstButton button{
+	display: flex;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: white;
+	color:#540B51;
+	font-size: 50%;
+	height: 4em;
+	width: 30em;
+}
+
+.secondButton button{
+	display: flex;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #4285F4;
+	color: white;
+	height: 4em;
+	width: 30em;
+}
+
+.secondButton img{
+	display: flex;
+	height: 2em;
+	width: 2em;
+}
+
+.heroContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.heroContainer img{
+	display: flex;
+	height:20em;
+	width: 35em;
+}
+
+.textCompanies {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.textCompanies p{
+	background-color: #F3EAE2;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.logoContainer{
+	background-color: #F3EAE2;
+}
+.logoContainer img{
+	display: flex;
+	flex-direction: row;
+	height: 1em;
+	width: 2em;
+
+}
+
+.mobileImage{
+	display: flex;
+	background-color: #F3EAE2;
+	height: 20em;
+	width: 30em;
+}
+.teamText {
+	display: flex;
+	flex-direction: column;
+	background-color: #F3EAE2;
+}
+
+.teamText h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.teamText p{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.chooseText {
+	display: flex;
+	flex-direction: column;
+	background-color: #F3EAE2;
+}
+.chooseText h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.chooseText p{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.salesImage {
+display: flex;
+height: 30em;
+width: 20em;
+}
+
+.speedImage {
+	display: flex;
+	height: 30em;
+	width: 20em;
+}
+.moveFast {
+	display: flex;
+	flex-direction: column;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F3EAE2;
+}
+
+.textSlack {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.enterpriseButton button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	background-color: #540B51;
+	height: 3em;
+	width: 20em;
+	}
+
+.talkTosales button{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:#540B51
+	background-color: white;
+	height: 3em;
+	width: 20em;
+}
+
+.factsContainer {
+	display: flex;
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.welcomeTo {
+	display: flex;
+	background-color:#540B51;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 2em;
+}
+.welcomeTo button { display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #540B51;
+	font-weight: bold;
+	background-color: white;
+	height: 3em;
+	width: 20em;
+}
+.imageUkraine img {
+	display: flex;
+	height: 3em;
+	width: 3em;
+}
+
+.lastText ul{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	font-weight: bold;
+}
